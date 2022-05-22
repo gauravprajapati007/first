@@ -1,0 +1,26 @@
+class MinStack:
+    top=0
+    
+    def __init__(self):
+        self.a=[]
+        
+
+    def push(self, val):
+        self.a[top]=val
+        top+=top
+
+    def pop(self):
+        x=a[top]
+        top-=top
+        return(x)
+    
+    def top(self):
+        return a[top]
+        
+
+    def getMin(self):
+        min(self.a)
+        
+
+
+m=MinStack()
